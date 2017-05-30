@@ -40,7 +40,7 @@
 			{
 				fixed4 original = tex2D(_MainTex, i.uv);
 				fixed4 blend = tex2D(_BlendTex, i.uv);
-				fixed4 output=original*blend;
+				fixed4 output = original * blend;
 
 				return output;
 			}
