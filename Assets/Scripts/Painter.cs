@@ -18,9 +18,9 @@ public class Painter : MonoBehaviour
         Eraser,
         Vector
     }
-    private int tool2 = 1;
+	private int tool2 = (int) Tool.Brush;
     public Drawing.Samples AntiAlias = Drawing.Samples.Samples4;
-    public Tool tool = Tool.Line;
+    public Tool tool;
     public Texture[] toolimgs;
     public Texture2D colorCircle;
     public float lineWidth = 1f;
