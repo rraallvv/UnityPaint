@@ -236,8 +236,8 @@ public class Painter : MonoBehaviour
     }
     public class BrushTool
     {
-        public float width = 1f;
-        public float hardness = 0f;
+        public float width = 10f;
+        public float hardness = 50f;
         public float spacing = 10f;
     }
     public class Stroke
